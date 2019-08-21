@@ -1,0 +1,13 @@
+@font-face {
+	font-family: 'WD_ALSRuble';
+	src: url('ruble.eot');
+	src: url('ruble.eot?#iefix') format('embedded-opentype'),
+			 url('ruble.woff') format('woff'),
+			 url('ruble.ttf') format('truetype'),
+			 url('ruble.svg#ALSRublRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+ruble, .wd_rub {font-weight:normal!important; font-style:normal!important;}
+	ruble .text, .wd_rub .text {font-size:0!important; margin:0!important; padding:0!important;}
+	ruble:after, .wd_rub:after {content:'p'!important; display:inline!important; font-family:"WD_ALSRuble"!important; text-transform:lowercase!important;}
